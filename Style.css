@@ -1,0 +1,41 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+  }
+
+  
+  .card {
+    width: 400px; /*sets the size of the card*/
+    background: #fff; /*makes it so it looks like the border is white, but its actually background*/
+    margin: 16px auto; /*Creates margin on the page/card and auto centers*/
+    padding: 8px; /*changes the size of the white space - looks like border*/
+  }
+  
+  .title {
+    background: #e3f4ff;
+    font-size: 16px; /*changes font size to 16 px*/
+    padding: 8px; /*creates 8 px gap between the blue section and the text*/
+    margin-bottom: 8px; /*pushes out the next blue box 8px on the bottom*/
+    margin-top: 0; /*need to push this to 0, otherwise the padding from .card will make the margin on top too big*/
+  }
+  
+  .content {
+    background: #e3f4ff;
+    padding: 8px 16px; /*changes padding of words and blue. first part affects sides, second part affects top and bottom*/
+    margin-bottom: 8px; /*pushes out the next blue box 8px on the bottom*/
+  }
+  
+  .button-container { /*this is the blue box that contains the button and the "and a" text*/
+    background: #e3f4ff;
+    text-align: center; /*centers everything in the box which is some text and the button*/
+    padding: 8px; /*padding around the words and box, 8px*/
+    
+  }
+  
+  button {
+    background: white;
+    border: 1px solid #eee;
+    display: block; /*this allows the block to be on another line*/
+    padding: 8px 24px; /*this changes padding which makes it look like it changes the size of the button, first part is top and bottom, second part is sides*/
+    margin: 0 auto; /*changes the spacing around the button, first part is the margin above and below, second part is the left and right. Auto automatically splits the remaining space equally between left and right margins*/
+  }
